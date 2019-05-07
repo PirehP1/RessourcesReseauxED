@@ -52,6 +52,6 @@ plot(sampson,
 ###### Visualiser une matrice d'adjacence avec ggplot2 
 ```R
 library(ggplot2) 
-V(karate)$comm <- cluster_optimal(karate, weights = NULL)
+V(sampson)$comm <- cluster_optimal(sampson, weights = NULL)
 
 ```
