@@ -49,8 +49,19 @@ plot(padgett$Business,
      vertex.size=V(padgett$Business)$width, 
      vertex.label.dist=1.5)
 ```
+
+
+
+```R 
+tab<-data.frame(Richesse=V(padgett$Business)$width,row.names=V(padgett$Business)$name)
+barplot(t(as.matrix(tab)), beside=TRUE, las=2)
+```
+
+
 ##### Quelques indicateurs 
 ###### La centralité 
+```R 
+```
 ###### L'intermédiarité 
 ```R 
 betweenness(padgett$Business)
@@ -63,8 +74,3 @@ closeness(padgett$Business)
 evcent(padgett$Business)
 ``` 
 
-
-```R 
-tab<-data.frame(Richesse=V(padgett$Business)$width,row.names=V(padgett$Business)$name)
-barplot(t(as.matrix(tab)), beside=TRUE, las=2)
-```
