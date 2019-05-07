@@ -59,7 +59,9 @@ barplot(t(as.matrix(tab)), beside=TRUE, las=2)
 
 
 ##### Quelques indicateurs 
-###### La centralité 
+
+###### La centralité 
+
 ```R
 degre(padgett$Business, mode=c("in"))
 ```
