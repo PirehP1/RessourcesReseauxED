@@ -24,5 +24,5 @@ writeBin(bin,fileIn)
 load(fileIn)
 padgett
 
-plot(padgett$business)
+plot(padgett$Business)
 plot(padgett$Wedding)
