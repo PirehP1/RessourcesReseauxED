@@ -1,10 +1,10 @@
-# RessourcesReseauxED
+# Ressources pour l'ED Reseaux
 Ressources pour l'école doctorale sur les réseaux sociaux en histoire juin 2019
 
-* Les données sont dans le répertoire data 
+## Les données sont dans le répertoire data 
 
-* Pour utiliser 
-** Padgett 
+## Pour utiliser 
+###  Padgett 
 
 ```R
 library(igraph)
