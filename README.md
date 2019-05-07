@@ -1,4 +1,4 @@
-# Ressources pour l'ED Reseaux
+# Ressources pour l'école doctorale réseaux
 Ressources pour l'école doctorale sur les réseaux sociaux en histoire juin 2019
 
 ## Les données sont dans le répertoire data
