@@ -52,6 +52,10 @@ V(padgett$Business)$width <- V(padgett$Business)$Wealth/sum(V(padgett$Business)$
 plot(padgett$Business, 
      edge.arrow.size=.5, 
      vertex.label.color="black", 
-     vertex.size=V(padgett$Business)$width , 
+     vertex.size=V(padgett$Business)$width, 
      vertex.label.dist=1.5)
 ```
+
+plot(data.frame(famille=V(padgett$Business)$name,Richesse=V(padgett$Business)$width))
+
+
