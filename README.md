@@ -47,7 +47,7 @@ plot(padgett$Business,
 
 
 #####  Montrerla richesse (/Ties/)
-V(padgett$Business)$width <- V(padgett$Business)$Ties/sum(V(padgett$Business)$Wealth) * 100
+V(padgett$Business)$width <- V(padgett$Business)$Wealth/sum(V(padgett$Business)$Wealth) * 100
 plot(padgett$Business, 
      edge.arrow.size=.5, 
      vertex.label.color="black", 
