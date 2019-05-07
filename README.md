@@ -32,6 +32,10 @@ vertex_attr(padgett$Business)
 V(padgett$Business)$name
 padgett$Business[]
 
- plot(padgett$Business, edge.arrow.size=.5, vertex.label.color="black", vertex.size=3.5, vertex.label.dist=1.5)
-
+ 
+plot(padgett$Business, 
+     edge.arrow.size=.5, 
+     vertex.label.color="black", 
+     vertex.size=2.5, 
+     vertex.label.dist=1.5)
 
