@@ -29,7 +29,7 @@ load(fileIn)
 padgett
 ```
 
-#### Le graph du business 
+#### L'approche par la richesse des familles 
 ##### Regarder les attributs
 * E (edges)
 * V (vertex)
