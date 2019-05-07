@@ -73,7 +73,6 @@ edge.betweenness(padgett$Business)
 
 ```R 
 closeness(padgett$Business)
-
 evcent(padgett$Business)
 ``` 
 
