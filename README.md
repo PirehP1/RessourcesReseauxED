@@ -59,6 +59,6 @@ plot(padgett$Business,
 
 
 ```R 
-plot(data.frame(famille=V(padgett$Business)$name,Richesse=V(padgett$Business)$width))
+plot(data.frame(Famille=V(padgett$Business)$name,Richesse=V(padgett$Business)$width))
 ```
 
