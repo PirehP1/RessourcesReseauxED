@@ -73,7 +73,3 @@ V(padgett$Business)$betweenness <- centralization.betweenness(padgett$Business)$
 V(padgett$Business)$closeness <- centralization.closeness(padgett$Business)$res
 V(padgett$Business)$eigen <- centralization.evcent(padgett$Business)$vector
 ``` 
-###### Communautés
-```R 
-V(padgett$Business)$comm <- membership(optimal.community(padgett$Business))
-```
