@@ -28,7 +28,9 @@ writeBin(bin,fileIn)
 load(fileIn)
 padgett
 ```
-#### Regarder les attributs
+
+#### Le graph du business 
+##### Regarder les attributs
 * E (edges)
 * V (vertex)
 ```R
@@ -38,7 +40,7 @@ V(padgett$Business)$name
 padgett$Business[]
 ```
 
-#### Faire des graphs 
+##### Faire des graphs 
 ```R 
 plot(padgett$Business, 
      edge.arrow.size=.5, 
@@ -61,8 +63,4 @@ plot(padgett$Business,
 ```R 
 tab<-data.frame(Richesse=V(padgett$Business)$width,row.names=V(padgett$Business)$name)
 barplot(t(as.matrix(tab)), beside=TRUE, las=2)
-
 ```
-
-
-#####  Montrer la densité des liens  (Ties)
