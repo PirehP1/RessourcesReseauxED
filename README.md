@@ -1,7 +1,10 @@
 # Ressources pour l'ED Reseaux
 Ressources pour l'école doctorale sur les réseaux sociaux en histoire juin 2019
 
-## Les données sont dans le répertoire data 
+
+## Les données sont dans le répertoire data
+
+
 
 ## Pour utiliser 
 ###  Padgett 
@@ -24,5 +27,11 @@ writeBin(bin,fileIn)
 load(fileIn)
 padgett
 
-plot(padgett$Business)
-plot(padgett$Wedding)
+E(padgett$Business)
+vertex_attr(padgett$Business)
+V(padgett$Business)$name
+padgett$Business[]
+
+ plot(padgett$Business, edge.arrow.size=.5, vertex.label.color="black", vertex.size=3.5, vertex.label.dist=1.5)
+
+
