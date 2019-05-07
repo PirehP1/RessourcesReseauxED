@@ -48,10 +48,3 @@ plot(sampson,
     vertex.color=V(sampson)$color, 
     vertex.label.dist=1.5)
 ```
-
-###### Visualiser une matrice d'adjacence avec ggplot2 
-```R
-library(ggplot2) 
-V(sampson)$comm <- cluster_optimal(sampson, weights = NULL)
-
-```
