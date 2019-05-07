@@ -60,7 +60,7 @@ plot(padgett$Business,
 
 ```R 
 tab<-data.frame(Richesse=V(padgett$Business)$width,row.names=V(padgett$Business)$name)
-barplot(t(as.matrix(tab)), beside=TRUE)
+barplot(t(as.matrix(tab)), beside=TRUE, las=2)
 
 ```
 
