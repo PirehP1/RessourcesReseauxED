@@ -29,8 +29,8 @@ load(fileIn)
 padgett
 ```
 #### Regarder les attributs
-E (edges)
-V (vertex)
+* E (edges)
+* V (vertex)
 ```R
 E(padgett$Business)
 vertex_attr(padgett$Business)
