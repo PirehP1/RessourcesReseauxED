@@ -47,7 +47,7 @@ plot(padgett$Business,
      vertex.label.dist=1.5)
 ```
 
-#####  Montrerla richesse (/Wealth/)
+#####  Montrer la richesse (Wealth)
 ```R 
 V(padgett$Business)$width <- V(padgett$Business)$Wealth/sum(V(padgett$Business)$Wealth) * 100
 plot(padgett$Business, 
@@ -64,3 +64,5 @@ barplot(t(as.matrix(tab)), beside=TRUE, las=2)
 
 ```
 
+
+#####  Montrer la densité des liens  (Ties)
