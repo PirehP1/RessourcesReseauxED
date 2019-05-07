@@ -68,8 +68,3 @@ V(padgett$Business)$degree <- degree(padgett$Business)
 ```R 
 V(padgett$Business)$betweenness <- centralization.betweenness(padgett$Business)$res
 ```
-
-```R 
-V(padgett$Business)$closeness <- centralization.closeness(padgett$Business)$res
-V(padgett$Business)$eigen <- centralization.evcent(padgett$Business)$vector
-``` 
