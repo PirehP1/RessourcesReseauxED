@@ -1,6 +1,11 @@
-# lire pages Forsé et Degenne, Les réseaux sociaux, p. 112-ssq
-# méthodes fondées sur les équivalences structurales
+[Accueil](https://github.com/PirehP1/RessourcesReseauxED/blob/master/README.md)
 
+##### Importer les donnée 
+* lire pages Forsé et Degenne, Les réseaux sociaux, p. 112-ssq
+*  méthodes fondées sur les équivalences structurales
+
+
+```R
 library(igraph)
 library(RCurl)
 
@@ -14,16 +19,22 @@ bin = getBinaryURL(fileOut)
 writeBin(bin,fileIn)  
 
 load(fileIn)
-
+```
+##### Représentation 
+###### Simple
+```R
 plot(sampson, 
     edge.arrow.size=.5, 
     vertex.label=V(sampson)$vertex.names,
     vertex.label.color="black", 
     vertex.label.dist=1.5)
+```
 
 
-# Il y a trois catégories : Loyal, Outcasts, Turks
-# on prends trois coouleurs : rouge, noir, bleu
+###### Mettre en couleur les trois catégories : Loyal, Outcasts, Turks
+(On prends trois coouleurs : rouge, noir, bleu)
+
+```R
 V(sampson)$color <- V(sampson)$group
 V(sampson)$color[V(sampson)$color=="Turks"]<-"blue"
 V(sampson)$color[V(sampson)$color=="Outcasts"]<-"black"
@@ -36,4 +47,5 @@ plot(sampson,
     vertex.label=V(sampson)$vertex.names,
     vertex.color=V(sampson)$color, 
     vertex.label.dist=1.5)
+```
 
