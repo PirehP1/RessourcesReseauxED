@@ -49,6 +49,19 @@ plot(padgett$Business,
      vertex.size=V(padgett$Business)$width, 
      vertex.label.dist=1.5)
 ```
+##### Quelques indicateurs 
+###### La centralité 
+###### L'intermédiarité 
+```R 
+betweenness(padgett$Business)
+edge.betweenness(padgett$Business)
+```
+
+```R 
+closeness(padgett$Business)
+
+evcent(padgett$Business)
+``` 
 
 
 ```R 
