@@ -57,21 +57,23 @@ tab<-data.frame(Richesse=V(padgett$Business)$width,row.names=V(padgett$Business)
 barplot(t(as.matrix(tab)), beside=TRUE, las=2)
 ```
 
-
 ##### Quelques indicateurs 
 
 ###### La centralité 
 
 ```R
-degree(padgett$Business, mode=c("total"))
+V(padgett$Business)$degree <- degree(padgett$Business)
 ```
 ###### L'intermédiarité 
 ```R 
-betweenness(padgett$Business)
-edge.betweenness(padgett$Business)
+V(padgett$Business)$betweenness <- centralization.betweenness(padgett$Business)$res
 ```
 
 ```R 
-closeness(padgett$Business)
+V(padgett$Business)$closeness <- centralization.closeness(padgett$Business)$res
+V(padgett$Business)$eigen <- centralization.evcent(padgett$Business)$vector
 ``` 
-
+###### Communautés
+```R 
+V(padgett$Business)$comm <- membership(optimal.community(padgett$Business))
+```
