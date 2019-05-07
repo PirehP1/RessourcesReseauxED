@@ -12,3 +12,9 @@ data(karate)
 ```R
 plot(karate)
 ```
+
+
+##### Faire une matrice d'adjacence 
+```R
+V(karate)$comm <- membership(optimal.community(karate))
+```
