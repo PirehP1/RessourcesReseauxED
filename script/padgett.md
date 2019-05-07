@@ -60,7 +60,8 @@ barplot(t(as.matrix(tab)), beside=TRUE, las=2)
 
 ##### Quelques indicateurs 
 ###### La centralité 
-```R 
+```R
+degre(padgett$Business, mode=c("in"))
 ```
 ###### L'intermédiarité 
 ```R 
