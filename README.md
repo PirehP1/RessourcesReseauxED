@@ -59,6 +59,7 @@ plot(padgett$Business,
 
 
 ```R 
-plot(data.frame(Famille=V(padgett$Business)$name,Richesse=V(padgett$Business)$width))
+tab<-data.frame(Richesse=V(padgett$Business)$width,row.names=V(padgett$Business)$name)
+barplot(tab)
 ```
 
