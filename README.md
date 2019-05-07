@@ -45,9 +45,10 @@ plot(padgett$Business,
      vertex.label.color="black", 
      vertex.size=2.5, 
      vertex.label.dist=1.5)
+```
 
-
-#####  Montrerla richesse (/Ties/)
+#####  Montrerla richesse (/Wealth/)
+```R 
 V(padgett$Business)$width <- V(padgett$Business)$Wealth/sum(V(padgett$Business)$Wealth) * 100
 plot(padgett$Business, 
      edge.arrow.size=.5, 
@@ -56,6 +57,8 @@ plot(padgett$Business,
      vertex.label.dist=1.5)
 ```
 
-plot(data.frame(famille=V(padgett$Business)$name,Richesse=V(padgett$Business)$width))
 
+```R 
+plot(data.frame(famille=V(padgett$Business)$name,Richesse=V(padgett$Business)$width))
+```
 
