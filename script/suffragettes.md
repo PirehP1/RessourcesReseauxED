@@ -24,7 +24,7 @@ Quelques rappels :  ([Wikipedia](https://fr.wikipedia.org/wiki/Graphe_biparti))
 ```R
 is.bipartite(net)
 table(V(net)$Type)
-
+table(V(net)$type)
 ```
 
 ##### Représenter  le réseau biparti 
