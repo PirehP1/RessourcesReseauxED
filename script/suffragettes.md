@@ -71,7 +71,13 @@ plot(net,
 mémo pour les paramètres graphiques [là](https://github.com/PirehP1/RessourcesReseauxED/blob/master/script/memoplot.md)
 
 ##### Quelques indicateurs
+
+```R
+bp<-bipartite.projection(net)
+```
+
+###### la centralité 
+
 ```R
 
-bp<-bipartite.projection(net)
 ```
