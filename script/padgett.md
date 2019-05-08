@@ -41,6 +41,7 @@ plot(padgett$Business,
 ```
 
 #####  Montrer la richesse (Wealth)
+
 ```R 
 V(padgett$Business)$width <- V(padgett$Business)$Wealth/sum(V(padgett$Business)$Wealth) * 100
 plot(padgett$Business, 
@@ -49,7 +50,7 @@ plot(padgett$Business,
      vertex.size=V(padgett$Business)$width, 
      vertex.label.dist=1.5)
 ```
-
+Il y a [là](https://github.com/PirehP1/RessourcesReseauxED/blob/master/script/memoplot.md) un mémo pour les paramètres graphiques
 
 
 ```R 
