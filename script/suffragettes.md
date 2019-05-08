@@ -39,7 +39,6 @@ table(V(net)$type)
 
 Ici on ajoute des couleurs et des formes pour distinguer les deux types de sommets : 
 ```R
-
 col <- c("red", "lightblue")
 shape <- c("circle", "square")
 
@@ -49,4 +48,9 @@ plot(net,
   vertex.shape = shape[as.numeric(V(net)$type)+1],
   vertex.label.dist=1
 )
+```
+##### Quelques indicateurs
+```R
+
+bp<-bipartite.projection(net)
 ```
