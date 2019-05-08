@@ -25,11 +25,11 @@ suffragettes
 Ici on ajoute des couleurs et des formes pour distinguer les deux types de sommets ([Wikipedia](https://fr.wikipedia.org/wiki/Graphe_biparti))
 ```R
 net<-suffragettes
-col <- c("steelblue", "orange")
+col <- c("lightblue", "orange")
 shape <- c("circle", "square")
 
 
-projection <- layout_as_tree(net)
+projection <- layout_in_circle(net)
 
 plot(net,
   layout = projection,
