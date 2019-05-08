@@ -12,7 +12,7 @@ data(karate)
 ```R
 plot(karate)
 ```
-
+mémo pour les paramètres graphiques [là](https://github.com/PirehP1/RessourcesReseauxED/blob/master/script/memoplot.md)
 
 ##### Faire une matrice d'adjacence 
 ```R
