@@ -19,3 +19,17 @@ writeBin(bin,fileIn)
 load(fileIn)
 suffragettes
 ```
+
+##### Représenter  le réseau biparti 
+
+Ici on ajoute des couleurs et des formes pour distinguer les deux types de sommets ([Ici]('https://fr.wikipedia.org/wiki/Graphe_biparti))
+```R
+net<-suffragettes
+col <- c("steelblue", "orange")
+shape <- c("circle", "square")
+
+plot(net,
+  vertex.color = col[as.numeric(V(net)$type)+1],
+  vertex.shape = shape[as.numeric(V(net)$type)+1]
+)
+```
