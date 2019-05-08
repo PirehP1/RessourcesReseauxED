@@ -64,6 +64,9 @@ barplot(t(as.matrix(tab)), beside=TRUE, las=2)
 
 ```R
 V(padgett$Business)$degree <- degree(padgett$Business)
+V(padgett$Business)$clos <- closeness(padgett$Business)
+V(padgett$Business)$eig <- eigen_centrality(padgett$Business)$vector
+
 ```
 ###### L'intermédiarité 
 ```R 
