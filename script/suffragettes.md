@@ -75,9 +75,3 @@ mémo pour les paramètres graphiques [là](https://github.com/PirehP1/Ressource
 ```R
 bp<-bipartite.projection(net)
 ```
-
-###### la centralité 
-
-```R
-
-```
