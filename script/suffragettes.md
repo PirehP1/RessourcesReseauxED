@@ -71,6 +71,17 @@ plot(net,
 mémo pour les paramètres graphiques [là](https://github.com/PirehP1/RessourcesReseauxED/blob/master/script/memoplot.md)
 
 ##### Quelques indicateurs
+```R
+types <- V(net)$type                 
+deg <- degree(net)
+bet <- betweenness(net)
+clos <- closeness(net)
+eig <- eigen_centrality(net)$vector
+
+net_centrality <- data.frame(types, deg, bet, clos, eig)
+net_centrality
+```
+
 
 ```R
 bp<-bipartite.projection(net)
