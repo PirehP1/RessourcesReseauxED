@@ -48,3 +48,4 @@ plot(sampson,
     vertex.color=V(sampson)$color, 
     vertex.label.dist=1.5)
 ```
+mémo pour les paramètres graphiques [là](https://github.com/PirehP1/RessourcesReseauxED/blob/master/script/memoplot.md)
