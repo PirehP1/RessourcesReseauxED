@@ -55,7 +55,17 @@ plot(net,
 ```
 Un classique (/remarquez la fonction layout/) : 
 ```R
-plot(net, layout=layout.bipartite, vertex.size=7, vertex.label.cex=0.6)
+plot(net,
+  layout=layout.bipartite,
+  edge.arrow.size=0.4,
+  vertex.label.cex=c(0.7),
+  vertex.size=3, 
+  vertex.color = col[as.numeric(V(net)$type)+1],
+  vertex.shape = shape[as.numeric(V(net)$type)+1],
+  vertex.label.dist=1,
+  vertex.label.family="Helvetica"
+)
+
 ```
 
 mémo pour les paramètres graphiques [là](https://github.com/PirehP1/RessourcesReseauxED/blob/master/script/memoplot.md)
