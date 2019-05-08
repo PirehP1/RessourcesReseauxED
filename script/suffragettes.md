@@ -23,6 +23,8 @@ suffragettes
 Quelques rappels :  ([Wikipedia](https://fr.wikipedia.org/wiki/Graphe_biparti))
 ```R
 is.bipartite(net)
+table(V(net)$Type)
+
 ```
 
 ##### Représenter  le réseau biparti 
