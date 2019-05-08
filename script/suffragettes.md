@@ -36,8 +36,3 @@ plot(net,
   vertex.shape = shape[as.numeric(V(net)$type)+1]
 )
 ```
-
-un autre mode de représentation 
-```R
-library(ggraph)
-```
