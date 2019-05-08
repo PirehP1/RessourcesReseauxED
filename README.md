@@ -8,7 +8,7 @@ Les données sont dans le répertoire /data/
 * [Padgett](https://github.com/PirehP1/RessourcesReseauxED/blob/master/script/padgett.md)
 * [Sampson](https://github.com/PirehP1/RessourcesReseauxED/blob/master/script/sampson.md)
 * [Zachary](https://github.com/PirehP1/RessourcesReseauxED/blob/master/script/karate.md)
-* [Problèmes]()
+* [Suffragttes]https://github.com/PirehP1/RessourcesReseauxED/blob/master/script/sufffragettes.md)
 
 
 ### 
