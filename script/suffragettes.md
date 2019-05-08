@@ -44,7 +44,7 @@ shape <- c("circle", "square")
 
 plot(net,
   layout=layout.mds,
-  edge.arrow.size=1,
+  edge.arrow.size=0.4,
   vertex.label.cex=c(0.7),
   vertex.size=3, 
   vertex.color = col[as.numeric(V(net)$type)+1],
