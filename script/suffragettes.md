@@ -33,7 +33,7 @@ projection <- layout_as_tree(net)
 
 plot(net,
   layout = projection,
-  vertex.cex=.5,
+  vertex.size=1.5, 
   vertex.color = col[as.numeric(V(net)$type)+1],
   vertex.shape = shape[as.numeric(V(net)$type)+1]
 )
