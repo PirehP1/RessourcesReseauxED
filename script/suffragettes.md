@@ -52,6 +52,8 @@ plot(net,
   vertex.label.dist=1
 )
 ```
+mémo pour les paramètres graphiques [là](https://github.com/PirehP1/RessourcesReseauxED/blob/master/script/memoplot.md)
+
 ##### Quelques indicateurs
 ```R
 
