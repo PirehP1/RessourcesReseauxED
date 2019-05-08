@@ -19,10 +19,15 @@ writeBin(bin,fileIn)
 load(fileIn)
 suffragettes
 ```
+##### Est-ce un réseau bipartite ? 
+Quelques rappels :  ([Wikipedia](https://fr.wikipedia.org/wiki/Graphe_biparti))
+```R
+is.bipartite(net)
+```
 
 ##### Représenter  le réseau biparti 
 
-Ici on ajoute des couleurs et des formes pour distinguer les deux types de sommets ([Wikipedia](https://fr.wikipedia.org/wiki/Graphe_biparti))
+Ici on ajoute des couleurs et des formes pour distinguer les deux types de sommets : 
 ```R
 net<-suffragettes
 col <- c("red", "lightblue")
