@@ -49,7 +49,8 @@ plot(net,
   vertex.size=3, 
   vertex.color = col[as.numeric(V(net)$type)+1],
   vertex.shape = shape[as.numeric(V(net)$type)+1],
-  vertex.label.dist=1
+  vertex.label.dist=1,
+  edge.curved=c(rep(0,5), rep(1,5)) 
 )
 ```
 mémo pour les paramètres graphiques [là](https://github.com/PirehP1/RessourcesReseauxED/blob/master/script/memoplot.md)
