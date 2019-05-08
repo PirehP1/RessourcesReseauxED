@@ -50,8 +50,8 @@ plot(net,
   vertex.color = col[as.numeric(V(net)$type)+1],
   vertex.shape = shape[as.numeric(V(net)$type)+1],
   vertex.label.dist=1,
-  edge.curved=c(rep(0,5), rep(1,5)) 
-)
+  vertex.label.family="Helvetica"
+  )
 ```
 mémo pour les paramètres graphiques [là](https://github.com/PirehP1/RessourcesReseauxED/blob/master/script/memoplot.md)
 
