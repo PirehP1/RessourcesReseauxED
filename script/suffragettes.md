@@ -19,6 +19,13 @@ writeBin(bin,fileIn)
 load(fileIn)
 suffragettes
 ```
+##### Regarder les donnnées 
+
+```R
+as_data_frame(suffragettes, what="vertices")
+as_data_frame(suffragettes, what="edges")
+```
+
 ##### Est-ce un réseau bipartite ? 
 Quelques rappels :  ([Wikipedia](https://fr.wikipedia.org/wiki/Graphe_biparti))
 ```R
