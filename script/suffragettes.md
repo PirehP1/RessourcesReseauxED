@@ -28,7 +28,11 @@ net<-suffragettes
 col <- c("steelblue", "orange")
 shape <- c("circle", "square")
 
+
+projection <- layout_with_fr(net)
+
 plot(net,
+  layout = projection,
   vertex.color = col[as.numeric(V(net)$type)+1],
   vertex.shape = shape[as.numeric(V(net)$type)+1]
 )
