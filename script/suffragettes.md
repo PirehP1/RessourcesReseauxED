@@ -43,6 +43,8 @@ col <- c("red", "lightblue")
 shape <- c("circle", "square")
 
 plot(net,
+  layout=layout.mds,
+  vertex.label.cex=c(0.7),
   vertex.size=3, 
   vertex.color = col[as.numeric(V(net)$type)+1],
   vertex.shape = shape[as.numeric(V(net)$type)+1],
