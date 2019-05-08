@@ -31,7 +31,7 @@ shape <- c("circle", "square")
 plot(net,
   vertex.size=3, 
   vertex.color = col[as.numeric(V(net)$type)+1],
-  vertex.shape = shape[as.numeric(V(net)$type)+1]
+  vertex.shape = shape[as.numeric(V(net)$type)+1],
   vertex.label.dist=1.5
 )
 ```
