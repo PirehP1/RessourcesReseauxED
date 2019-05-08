@@ -28,8 +28,6 @@ net<-suffragettes
 col <- c("red", "lightblue")
 shape <- c("circle", "square")
 
-
-
 plot(net,
   vertex.size=3, 
   vertex.color = col[as.numeric(V(net)$type)+1],
