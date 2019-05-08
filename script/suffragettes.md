@@ -53,6 +53,11 @@ plot(net,
   vertex.label.family="Helvetica"
   )
 ```
+Un classique (/remarquez la fonction layout/) : 
+```R
+plot(net, layout=layout.bipartite, vertex.size=7, vertex.label.cex=0.6)
+```
+
 mémo pour les paramètres graphiques [là](https://github.com/PirehP1/RessourcesReseauxED/blob/master/script/memoplot.md)
 
 ##### Quelques indicateurs
