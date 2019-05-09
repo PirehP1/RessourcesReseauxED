@@ -82,6 +82,12 @@ eig <- eigen_centrality(net)$vector
 net_centrality <- data.frame(id, types, deg, bet, clos, eig)
 net_centrality
 ```
+Il y a beaucoup de composantes connexes dans ce réseau, non ? 
+
+```R
+gclust <- clusters(net)
+gclust$no
+```
 
 
 ```R
