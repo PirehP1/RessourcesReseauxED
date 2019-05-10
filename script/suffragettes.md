@@ -98,12 +98,11 @@ proj.net<-bipartite.projection(sub.net)
 adj.net<-get.adjacency(proj.net$proj1,sparse=FALSE,attr="weight")
 
 plot(proj.net$proj1,
-    layout=layout.fruchterman.reingold(proj.net$proj1),
     edge.width=E(proj.net$proj1)$weight^2,
     edge.color="black",
-    vertex.size=2, 
+    vertex.size=3, 
     vertex.label=V(proj.net$proj1)$name,
-    vertex.label.cex=c(0.1),
+    vertex.label.cex=c(0.3),
     vertex.color = col[as.numeric(V(net)$type)+1],
     vertex.label.dist=1,
     vertex.label.family="Helvetica"
