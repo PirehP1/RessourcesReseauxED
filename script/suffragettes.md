@@ -91,8 +91,23 @@ numLCC = gclust$csize[4]
 sub.net = induced.subgraph(net, V(net)[which(gclust$membership == which.max(gclust$csize))])
 
 ```
-
+On peut représenter juste les relations entre les femmes 
 
 ```R
-bp<-bipartite.projection(net)
+proj.net<-bipartite.projection(sub.net)
+adj.net<-get.adjacency(proj.net$proj1,sparse=FALSE,attr="weight")
+
+plot(proj.net$proj1,
+    layout=layout.fruchterman.reingold(proj.net$proj1),
+    edge.width=E(proj.net$proj1)$weight^2,
+    edge.color="black",
+    vertex.size=2, 
+    vertex.label=V(proj.net$proj1)$name,
+    vertex.label.cex=c(0.1),
+    vertex.color = col[as.numeric(V(net)$type)+1],
+    vertex.label.dist=1,
+    vertex.label.family="Helvetica"
+    )
+
+
 ```
