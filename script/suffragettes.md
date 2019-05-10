@@ -87,6 +87,9 @@ Il y a beaucoup de *composantes connexes* dans ce réseau, non ?
 ```R
 gclust <- clusters(net)
 gclust$no
+numLCC = gclust$csize[4]
+sub.net = induced.subgraph(net, V(net)[which(gclust$membership == which.max(gclust$csize))])
+
 ```
 
 
