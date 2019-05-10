@@ -99,14 +99,12 @@ adj.net<-get.adjacency(proj.net$proj1,sparse=FALSE,attr="weight")
 
 plot(proj.net$proj1,
     edge.width=E(proj.net$proj1)$weight^2,
-    edge.color="black",
-    vertex.size=3, 
+    edge.color="gray",
+    vertex.size=5, 
     vertex.label=V(proj.net$proj1)$name,
-    vertex.label.cex=c(0.3),
-    vertex.color = col[as.numeric(V(net)$type)+1],
+    vertex.label.cex=0.7,
+    vertex.color = "red",
     vertex.label.dist=1,
     vertex.label.family="Helvetica"
     )
-
-
 ```
