@@ -1,7 +1,7 @@
 [Accueil](https://github.com/PirehP1/RessourcesReseauxED/blob/master/README.md)
 
 
-##### Importer les données 
+#### Importer les données 
 ```R
 library(igraph)
 library(RCurl)
@@ -17,7 +17,7 @@ writeBin(bin,fileIn)
 
 net.tab<-read.csv(fileIn, sep=",", header=T)
 ```
-#### construire le réseau 
+#### Construire le réseau 
 
 ```R
 edgelist <- as.matrix(net.tab)
@@ -37,4 +37,10 @@ plot(net.these,
   )
 ```
 ##### Détecter des groupes 
+On préférera le terme **groupe** à celui de **communautés**, les groupes sont produits par des algorithmes. 
 
+###### fonction modularité 
+```R
+mdr <- cluster_edge_betweenness(net.these)
+modularity(md)
+```
