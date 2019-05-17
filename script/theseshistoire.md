@@ -17,3 +17,8 @@ writeBin(bin,fileIn)
 
 net.tab<-read.csv(fileIn, sep=",", header=T)
 ```
+
+##### Construire le réseau 
+
+```R
+```
