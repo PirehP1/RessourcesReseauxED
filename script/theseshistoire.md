@@ -38,6 +38,10 @@ plot(net.these,
 ```
 #### Détecter des groupes 
 On préférera le terme **groupe** à celui de **communautés**, les groupes sont produits par des algorithmes. 
+Il y a beaucoup de **composantes connexes**, on va s'interesser à la plus grande. 
+```R
+
+```
 
 ##### l'algorithme dit "louvain"
 ```R
