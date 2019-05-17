@@ -21,6 +21,6 @@ net.tab<-read.csv(fileIn, sep=",", header=T)
 
 ```R
 edgelist <- as.matrix(net.tab)
-net.these <- graph_from_edgelist(edgelist)
+net.these <- graph_from_edgelist(edgelist, directed=FALSE)
 
 ```
