@@ -40,17 +40,20 @@ plot(net.these,
 On préférera le terme **groupe** à celui de **communautés**, les groupes sont produits par des algorithmes. 
 Il y a beaucoup de **composantes connexes**, on va s'interesser à la plus grande. 
 ```R
-
+gclust <- clusters(net.these)
+gclust$no
+numLCC = gclust$csize[4]
+sub.net = induced.subgraph(net.these, V(net.these)[which(gclust$membership == which.max(gclust$csize))])
 ```
 
 ##### l'algorithme dit "louvain"
 ```R
-louv <- cluster_louvain(net.these)
+louv <- cluster_louvain(sub.net)
 modularity(louv)
 ```
 
 ```R
-plot( louv,  net.these,
+plot( louv,  sub.net,
   layout=layout.mds,
   edge.arrow.size=0.4,
   vertex.label.cex=c(0.2),
@@ -63,6 +66,6 @@ plot( louv,  net.these,
 
 ##### fonction modularité 
 ```R
-md <- cluster_edge_betweenness(net.these)
+md <- cluster_edge_betweenness(sub.net)
 modularity(md)
 ```
