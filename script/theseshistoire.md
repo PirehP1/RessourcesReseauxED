@@ -25,7 +25,7 @@ net.these <- graph_from_edgelist(edgelist, directed=FALSE)
 
 ```
 
-##### Représenter 
+#### Représenter 
 ```R
 plot(net.these,
   layout=layout.mds,
@@ -36,11 +36,11 @@ plot(net.these,
   vertex.label.family="Helvetica"
   )
 ```
-##### Détecter des groupes 
+#### Détecter des groupes 
 On préférera le terme **groupe** à celui de **communautés**, les groupes sont produits par des algorithmes. 
 
 ###### fonction modularité 
 ```R
-mdr <- cluster_edge_betweenness(net.these)
+md <- cluster_edge_betweenness(net.these)
 modularity(md)
 ```
