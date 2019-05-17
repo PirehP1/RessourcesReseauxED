@@ -45,6 +45,18 @@ louv <- cluster_louvain(net.these)
 modularity(louv)
 ```
 
+```R
+plot( louv,  net.these,
+  layout=layout.mds,
+  edge.arrow.size=0.4,
+  vertex.label.cex=c(0.2),
+  vertex.size=2, 
+  vertex.label.dist=1,
+  vertex.label.family="Helvetica"
+  )
+```
+
+
 ##### fonction modularité 
 ```R
 md <- cluster_edge_betweenness(net.these)
