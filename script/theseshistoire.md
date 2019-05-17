@@ -39,7 +39,7 @@ plot(net.these,
 #### Détecter des groupes 
 On préférera le terme **groupe** à celui de **communautés**, les groupes sont produits par des algorithmes. 
 
-###### fonction modularité 
+##### fonction modularité 
 ```R
 md <- cluster_edge_betweenness(net.these)
 modularity(md)
