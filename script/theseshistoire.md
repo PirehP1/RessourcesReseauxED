@@ -31,8 +31,10 @@ plot(net.these,
   layout=layout.mds,
   edge.arrow.size=0.4,
   vertex.label.cex=c(0.1),
-  vertex.size=3, 
+  vertex.size=2, 
   vertex.label.dist=1,
   vertex.label.family="Helvetica"
   )
 ```
+##### Détecter des groupes 
+
