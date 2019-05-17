@@ -64,7 +64,8 @@ plot( louv,  sub.net,
 ```
 
 
-##### fonction modularité 
+##### fonction modularité
+
 ```R
 md <- cluster_edge_betweenness(sub.net)
 modularity(md)
