@@ -53,7 +53,7 @@ plot(net,
   vertex.label.family="Helvetica"
   )
 ```
-Un classique (/remarquez la fonction layout/) : 
+Un classique (*remarquez la fonction layout*) : 
 ```R
 plot(net,
   layout=layout.bipartite,
