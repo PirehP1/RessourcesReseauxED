@@ -37,7 +37,7 @@ plot(net.these,
   )
 ```
 #### Détecter des groupes 
-On préférera le terme **groupe** à celui de **communautés**, les groupes sont produits par des algorithmes. 
+On préférera le terme **groupe** à celui de **communautés**, les groupes sont produits par des algorithmes. Un billet de Laurent Beaugitte sur ce thème ([Ici](https://arshs.hypotheses.org/1314))
 Il y a beaucoup de **composantes connexes**, on va s'interesser à la plus grande. 
 ```R
 gclust <- clusters(net.these)
@@ -53,13 +53,14 @@ modularity(louv)
 ```
 
 ```R
-plot( louv,  sub.net,
+plot(louv,  sub.net,
   layout=layout.mds,
   edge.arrow.size=0.4,
   vertex.label.cex=c(0.2),
   vertex.size=2, 
   vertex.label.dist=1,
-  vertex.label.family="Helvetica"
+  vertex.label.family="Helvetica",
+  main = paste("Louvain", round(modularity(louv),2), sep = " ")
   )
 ```
 
