@@ -20,7 +20,7 @@ net.tab<-read.csv(fileIn, sep=",", header=T)
 #### construire le réseau 
 
 ```R
-edglist <- as.matrix(net.tab)
+edgelist <- as.matrix(net.tab)
 net.these <- graph_from_edgelist(edgelist)
 
 ```
