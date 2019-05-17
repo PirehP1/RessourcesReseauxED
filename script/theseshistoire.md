@@ -39,6 +39,12 @@ plot(net.these,
 #### Détecter des groupes 
 On préférera le terme **groupe** à celui de **communautés**, les groupes sont produits par des algorithmes. 
 
+##### l'algorithme dit "louvain"
+```R
+louv <- cluster_louvain(net.these)
+modularity(louv)
+```
+
 ##### fonction modularité 
 ```R
 md <- cluster_edge_betweenness(net.these)
