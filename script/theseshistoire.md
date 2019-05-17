@@ -37,7 +37,7 @@ plot(net.these,
   )
 ```
 #### Détecter des groupes 
-On préférera le terme **groupe** à celui de **communautés**, les groupes sont produits par des algorithmes. Un billet de Laurent Beauguitte sur ce thème ([Ici](https://arshs.hypotheses.org/1314)). 
+On préférera le terme **groupe** à celui de **communautés**, les groupes sont produits par des algorithmes. Un billet de Laurent Beauguitte sur ce thème ([Ici](https://arshs.hypotheses.org/1314)), il y a [là](https://www.sixhat.net/finding-communities-in-networks-with-r-and-igraph.html) aussi, mais en anglais. 
 
 Il y a beaucoup de **composantes connexes**, on va s'interesser à la plus grande. 
 ```R
