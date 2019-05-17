@@ -15,5 +15,5 @@ fileIn <- paste(path,"/", file, sep="")
 bin = getBinaryURL(fileOut) 
 writeBin(bin,fileIn)  
 
-load(fileIn)
+net.tab<-read.csv(fileIn, sep=",", header=T)
 ```
