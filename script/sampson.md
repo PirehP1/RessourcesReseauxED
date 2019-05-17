@@ -1,6 +1,6 @@
 [Accueil](https://github.com/PirehP1/RessourcesReseauxED/blob/master/README.md)
 
-##### Importer les donnée 
+##### Importer les données 
 * lire pages Forsé et Degenne, Les réseaux sociaux, p. 112-ssq
 *  méthodes fondées sur les équivalences structurales
 
