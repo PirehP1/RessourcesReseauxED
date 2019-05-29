@@ -5,5 +5,5 @@ Nous allons donc l'installer et pour cela il faut télécharger le source pour v
 
 Vous pouvez l'installer de cette façon : 
 
-install.packages('/home/stephane/Téléchargements/mixer_1.9.tar.gz' , repos = NULL, type="source")
+install.packages('/votre répertoire/mixer_1.9.tar.gz' , repos = NULL, type="source")
 
