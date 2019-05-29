@@ -10,10 +10,10 @@ Vous pouvez l'installer de cette façon :
 install.packages('/votre répertoire/mixer_1.9.tar.gz' , repos = NULL, type="source")
 ```
 
-Cela étant fait, nous allons utiliser le réseau des [jurys de thèses](https://github.com/PirehP1/RessourcesReseauxED/blob/master/script/theseshistoire.md). Il faut avoir préparer le réseau et utiliser **net.these**
+Cela étant fait, nous allons utiliser le réseau [Sampson](https://github.com/PirehP1/RessourcesReseauxED/blob/master/script/sampson.md). Il faut avoir préparer le réseau et utiliser **sampson**
 
 ```R
-mat<-as.matrix(get.adjacency(net.these))
+mat<-as.matrix(get.adjacency(sampson))
 mat[mat>1]<-1
 out <- mixer(mat)
 ```
