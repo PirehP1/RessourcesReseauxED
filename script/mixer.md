@@ -17,6 +17,8 @@ mat<-as.matrix(get.adjacency(net.these))
 mat[mat>1]<-1
 out <- mixer(mat)
 ```
+L'appel de mixer permet d'estimer quelques paramètres, comme le nombdre de groupes  'q' d'un modèle à blocs stochastiques.
+
 Le calcul est assez long dans notre cas 
 
 ```R
