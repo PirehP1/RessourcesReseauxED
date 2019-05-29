@@ -7,3 +7,5 @@ Vous pouvez l'installer de cette façon :
 
 install.packages('/votre répertoire/mixer_1.9.tar.gz' , repos = NULL, type="source")
 
+
+Cela étant fait, nous allons utiliser le réseau des [suffragettes][https://github.com/PirehP1/RessourcesReseauxED/blob/master/script/suffragettes.md]
