@@ -14,5 +14,9 @@ Cela étant fait, nous allons utiliser le réseau des [jurys de thèses](https:/
 mat<-as.matrix(get.adjacency(net.these))
 mat[mat>1]<-1
 out <- mixer(mat,qmin=2,qmax=6)
+```
+Le calcul est assez long dans notre cas 
+
+```R
 plot(out)
 ```
