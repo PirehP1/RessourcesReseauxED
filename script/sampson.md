@@ -20,6 +20,7 @@ writeBin(bin,fileIn)
 
 load(fileIn)
 ```
+([Mixer](https://github.com/PirehP1/RessourcesReseauxED/blob/master/script/mixer.md))
 ##### Représentation 
 ###### Simple
 ```R
