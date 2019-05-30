@@ -24,3 +24,7 @@ load(fileIn)
 vocabulaire
 ```
 ##### Accéder aux données
+```R
+as_data_frame(vocabulaire, what="vertices")
+as_data_frame(vocabulaire, what="edges")
+```
