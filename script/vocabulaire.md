@@ -23,3 +23,4 @@ writeBin(bin,fileIn)
 load(fileIn)
 vocabulaire
 ```
+##### Accéder aux données
