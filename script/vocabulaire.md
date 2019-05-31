@@ -1,7 +1,9 @@
 
 [Accueil](https://github.com/PirehP1/RessourcesReseauxED/blob/master/README.md)
 
-##### Deux ou trois choses du corpus
+##### Présentation du corpus
+
+Le corpus vise à questionner le traitement de l'actualité liée au Québec dans la presse française pendant les présidences de Charles de Gaulle. Il est constitué d'articles de presse publié entre le 14 janvier 1959 et le 24 avril 1969 qui contiennent au moins une fois le mot "Québec".
 
 ##### Importer les données 
 ```R
