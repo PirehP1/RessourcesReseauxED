@@ -27,6 +27,10 @@ vocabulaire
 ```
 ##### Accéder aux données
 ```R
-as_data_frame(vocabulaire, what="vertices")
-as_data_frame(vocabulaire, what="edges")
+id <- V(vocabulaire)$name
+V(vocabulaire)$deg <- degree(vocabulaire)
+V(vocabulaire)$bet <- betweenness(vocabulaire)
+V(vocabulaire)$clos <- closeness(vocabulaire)
+V(vocabulaire)$eig <- eigen_centrality(vocabulaire)$vector
+
 ```
