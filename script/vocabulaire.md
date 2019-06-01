@@ -31,7 +31,7 @@ vocabulaire
 id <- V(vocabulaire)$name
 deg <- degree(vocabulaire)
 bet <- betweenness(vocabulaire)
-clos <- closeness(vocabulaire)
+clo <- closeness(vocabulaire)
 eig <- eigen_centrality(vocabulaire)$vector
 tab.indic<-data.frame(id, deg, bet, clo, eig)
 head(tab.indic[order(tab.indic$bet, decreasing=TRUE),])
