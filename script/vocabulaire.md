@@ -25,12 +25,15 @@ writeBin(bin,fileIn)
 load(fileIn)
 vocabulaire
 ```
-##### Accéder aux données
+##### Utiliser quelques indicateurs
 ```R
+
 id <- V(vocabulaire)$name
-V(vocabulaire)$deg <- degree(vocabulaire)
-V(vocabulaire)$bet <- betweenness(vocabulaire)
-V(vocabulaire)$clos <- closeness(vocabulaire)
-V(vocabulaire)$eig <- eigen_centrality(vocabulaire)$vector
+deg <- degree(vocabulaire)
+bet <- betweenness(vocabulaire)
+clos <- closeness(vocabulaire)
+eig <- eigen_centrality(vocabulaire)$vector
+tab.indic<-data.frame(id, deg, bet, clo, eig)
+head(tab.indic[order(tab.indic$bet, decreasing=TRUE),])
 
 ```
