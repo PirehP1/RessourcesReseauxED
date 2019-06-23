@@ -18,6 +18,6 @@ summary(challant$liens)
 t.test(challant$liens)
 MoyenneLiens<-mean(challant$liens)
 probaLien<-MoyenneLiens/max(challant$liens)
-probaLiens
+probaLien
 ks.test(distribution/sum(distribution), dbinom(0:8,8, probaLien))	# on teste pour savoir si la distribution suit une loi binomiale.
 ```
