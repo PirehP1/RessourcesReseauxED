@@ -21,3 +21,4 @@ probaLien<-MoyenneLiens/max(challant$liens)
 probaLien
 ks.test(distribution/sum(distribution), dbinom(0:8,8, probaLien))	# on teste pour savoir si la distribution suit une loi binomiale.
 ```
+ 
