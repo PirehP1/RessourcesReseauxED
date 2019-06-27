@@ -1,3 +1,5 @@
+# Scripts accompagnant la conférence de Pierre  Latouche
+
 ```R
 library(igraph)
 library(sna)
