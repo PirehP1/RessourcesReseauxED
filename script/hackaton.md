@@ -7,8 +7,9 @@
 ## Données Dimev 
 
 Le [site](https://www.dimev.net/)
-[noeuds]()
-[liens]()
+
+
+les [noeuds]() et les [liens]()
 
 Fondées sur le catalogue en ligne du DIMEV (Digital Index of Middle English Verse, dimev.net)
 Référence tous les textes anglais en vers dans les manuscrits médiévaux (et dans les premiers imprimés), en indiquant les manuscrits où ils figurent.
