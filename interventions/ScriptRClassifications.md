@@ -1,12 +1,12 @@
-# Scripts accompagnant la conférence de Pierre  Latouche
+# Scripts accompagnant la conférence de Pierre  Latouche
 
 ```R
 library(igraph)
 library(sna)
 ```
-# Simulation de graphes aléatoires
+## Simulation de graphes aléatoires
 
-## Modèle d'Erdös-Rényi
+### Modèle d'Erdös-Rényi
 ```R
 n = 50
 
@@ -37,13 +37,13 @@ X = erdos_renyi(100, 0.2)
 gplot(X, edge.col = "gray")
 ```
 
-### directement sous igraph
+#### directement sous igraph
 ```R
 g = erdos.renyi.game(100, 0.2, directed=TRUE)
 plot(g)
 ```
 
-## Modèle SBM
+### Modèle SBM
 ```R
 n = 50
 K = 2 # nombre de clusters
