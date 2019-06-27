@@ -13,4 +13,4 @@ Les données sont dans le répertoire /data/
 
 
 ### Hackhaton 
-C'est [Ici](https://github.com/PirehP1/RessourcesReseauxED/blob/master/script/hackhaton.md)
+C'est [Ici](https://github.com/PirehP1/RessourcesReseauxED/blob/master/script/hackhathon.md)
