@@ -4,7 +4,7 @@
 # Hackathon - vendredi 28 juin 
 
 
-## Données Dimev 
+## Données : Dimev 
 
 Le [site](https://www.dimev.net/)
 
@@ -24,7 +24,7 @@ https://www.dimev.net/record.php?recID=
 Le fichier des liens contient 18014 liens entre un texte (identifié par son numéro) et un manuscrit (identifié par sa cote).
 
 
-## Données, l'économie des privilèges 
+## Données : l'économie des privilèges 
 [site](https://sites.fas.harvard.edu/~histecon/visualizing/privileges/index.html)
 
 Les données portent sur une période qui s'étend de 1492 à 1556 (abdication de Charles Quint). D
