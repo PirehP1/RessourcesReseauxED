@@ -2,6 +2,9 @@
 Ressources pour l'école doctorale sur les réseaux sociaux en histoire juin 2019
 
 Les données sont dans le répertoire /data/
+## Quelques documentations pour les conférences 
+
+* [Pierre Latouche]  Le script [R](https://github.com/PirehP1/RessourcesReseauxED/blob/master/interventions/ScriptRClassifications.md)
 
 ## Découvrir des réseaux classiques 
 ###  liste
@@ -14,3 +17,5 @@ Les données sont dans le répertoire /data/
 
 ### Hackhaton 
 C'est [Ici](https://github.com/PirehP1/RessourcesReseauxED/blob/master/script/hackathon.md)
+
+
