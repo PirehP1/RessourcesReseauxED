@@ -4,7 +4,7 @@ Ressources pour l'école doctorale sur les réseaux sociaux en histoire juin 201
 Les données sont dans le répertoire /data/
 ## Quelques documentations pour les conférences 
 
-* [Pierre Latouche]  Le script [R](https://github.com/PirehP1/RessourcesReseauxED/blob/master/interventions/ScriptRClassifications.md)
+* [Pierre Latouche]  Un script [R](https://github.com/PirehP1/RessourcesReseauxED/blob/master/interventions/ScriptRClassifications.md) et le [Diaporama](https://github.com/PirehP1/RessourcesReseauxED/blob/master/interventions/Diaporama%20pierre%20latouche.pdf)
 
 ## Découvrir des réseaux classiques 
 ###  liste
