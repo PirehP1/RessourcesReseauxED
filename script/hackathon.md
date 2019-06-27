@@ -4,14 +4,14 @@
 # Hackathon - vendredi 28 juin 
 
 
-## Données : Dimev 
+## Données : Dimev (Digital Index of Middle English Verse, dimev.net)
 
 Le [site](https://www.dimev.net/)
 
 
 les [noeuds](https://github.com/PirehP1/RessourcesReseauxED/blob/master/data/vendredi/noeudsDimev.csv) et les [liens](https://github.com/PirehP1/RessourcesReseauxED/blob/master/data/vendredi/liensDIMEV.csv)
 
-Fondées sur le catalogue en ligne du DIMEV (Digital Index of Middle English Verse, dimev.net)
+Fondées sur le catalogue en ligne du DIMEV 
 Référence tous les textes anglais en vers dans les manuscrits médiévaux (et dans les premiers imprimés), en indiquant les manuscrits où ils figurent.
 Le site permet de chercher un texte en vers ou de consulter le contenu d'un manuscrit.
 
