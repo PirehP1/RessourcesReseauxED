@@ -1,6 +1,6 @@
 
 Actuellement, il n'y a pas eut d'update du paquet mixer sur R-cran. 
-Nous allons donc l'installer et pour cela il faut télécharger le source pour vos machines : 
+Nous allons donc l'installer, d'une façon un peu différente, et pour cela il faut télécharger le source pour vos machines : 
 * [Ici](https://cran.r-project.org/src/contrib/Archive/mixer/mixer_1.9.tar.gz) Linux et MacOs.
 
 Il s'inscrit dans la continuité de mixnet (c++)  développé par Vincent Miele (2006)
