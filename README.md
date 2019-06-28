@@ -18,6 +18,7 @@ Les données sont dans le répertoire /data/
 * [Theses](https://github.com/PirehP1/RessourcesReseauxED/blob/master/script/theseshistoire.md) 
 ### Une bibliothèque R assez utile : mixer
 * [pour l'installer](https://github.com/PirehP1/RessourcesReseauxED/blob/master/script/mixer.md)
+On pourra voir aussi [blocmodels](https://cran.r-project.org/web/packages/blockmodels/blockmodels.pdf)
 
 
 ### Hackhaton 
