@@ -16,6 +16,9 @@ Les données sont dans le répertoire /data/
 * [Zachary](https://github.com/PirehP1/RessourcesReseauxED/blob/master/script/karate.md)
 * [Suffragettes](https://github.com/PirehP1/RessourcesReseauxED/blob/master/script/suffragettes.md) (biparti) [Gephi](https://github.com/PirehP1/RessourcesReseauxED/blob/master/data/suffragettes.csv), liste de liens [liens](https://github.com/PirehP1/RessourcesReseauxED/blob/master/data/listeLiensSuffragettes.csv), [noeuds](https://github.com/PirehP1/RessourcesReseauxED/blob/master/data/listeSuffragettesArrestations.csv)
 * [Theses](https://github.com/PirehP1/RessourcesReseauxED/blob/master/script/theseshistoire.md) 
+### Une bibliothèque R assez utile : mixer
+* [pour l'installer](https://github.com/PirehP1/RessourcesReseauxED/blob/master/script/mixer.md)
+
 
 ### Hackhaton 
 C'est [Ici](https://github.com/PirehP1/RessourcesReseauxED/blob/master/script/hackathon.md)
