@@ -31,5 +31,5 @@ Les données portent sur une période qui s'étend de 1492 à 1556 (abdication d
 500 privilèges accordés à près de 250 personnes. L'information a ensuite été codée et organisée dans une base de données.
 
 ## Données : Angoulême en 1764
-
+Il s'agit d'un ensemble de liens extraits des registres paroissiaux des paroisses du centre d'Angoulême en 1764. 
 [site](https://sites.fas.harvard.edu/~histecon/visualizing/angouleme/overview.html) 
