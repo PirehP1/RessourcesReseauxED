@@ -18,3 +18,13 @@ mémo pour les paramètres graphiques [là](https://github.com/PirehP1/Ressource
 ```R
 V(karate)$comm <- membership(optimal.community(karate))
 ```
+
+
+
+##### Une classification ? 
+```R
+lc <-  cluster_louvain(karate)
+membership(lc)
+communities(lc)
+plot(lc,karate)
+```
